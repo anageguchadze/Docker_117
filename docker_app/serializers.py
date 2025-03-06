@@ -5,4 +5,4 @@ from .models import Museum
 class MuseumSerializer(serializers.ModelSerializer):
     class Meta:
         model = Museum
-        firlds = '__all__'
+        fields = '__all__'
